@@ -1,0 +1,23 @@
+{
+  "name": "@brandednomad/simplecalc",
+  "version": "0.1.0",
+  "description": "A simple arithmetic calculator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "con-test": "nodemon /usr/local/bin/mocha"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrandedNomad/npm-package-simplecalc.git"
+  },
+  "author": "Charl Swart",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "should": "^13.2.3"
+  }
+}

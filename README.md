@@ -63,6 +63,12 @@ Divides the value of the internal accumulator by __*number*__. Returns the new v
 
 calc.div(2)
 
+## result = object.value()
+
+Returns the current value of the internal accumulator.
+
+var result = calc.value();
+
 ***
 
 ## Testing
@@ -84,6 +90,12 @@ To test, go to the root folder and type
 Contributions not accepted at this moment
 
 ## Version History
+
+#### Version 0.2.0
+
+* Added examples folder
+* Added Object.value() method
+
 
 #### Version 0.1.0
 
